@@ -25,6 +25,9 @@ builds:
       - linux
       - windows
       - darwin
+    flags:
+      - -tags=production
+    
 
 archives:
   - format: tar.gz
