@@ -4,3 +4,5 @@ import type { UsersRecord } from "./pocketbase-types";
 export type UserRequest = Omit<UsersRecord, "id" | "tokenKey"> & {
   passwordConfirm: string;
 };
+
+export type AuthStoreUserRecord = Omit<UsersRecord, "password" | "tokenKey">;

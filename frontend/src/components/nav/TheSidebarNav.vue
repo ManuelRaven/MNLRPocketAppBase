@@ -18,7 +18,7 @@
     <BNavItemDropdown right>
       <!-- Using 'button-content' slot -->
       <template #button-content>
-        <em>User</em>
+        <em>{{ auth.authModel.value?.email }}</em>
       </template>
       <BDropdownItem href="#">Profile</BDropdownItem>
       <BDropdownItem @click="logout">Sign Out</BDropdownItem>
