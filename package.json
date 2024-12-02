@@ -1,0 +1,45 @@
+{
+  "name": "mnlrbase",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:client": "vite dev",
+    "dev:server": "cd backend && go run . --dir=../db serve",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "build:client": "vite build",
+    "build:server": "cd backend && go build -tags production -ldflags=\"-w -s\" -o ../dist/mnlrbase.exe",
+    "build": "npm run build:client && npm run build:server",
+    "preview": "./dist/mnlrbase serve",
+    "compose": "docker compose up --build -d",
+    "dev:gentypes": "pocketbase-typegen --env --out=frontend/src/types/pocketbase-types.ts",
+    "gentypes": "node ./scripts/generate-types.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.26.7",
+    "bootswatch": "^5.3.3",
+    "pinia": "^2.2.6",
+    "pocketbase": "^0.22.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@iconify-json/bi": "^1.2.1",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.9.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/tsconfig": "^0.7.0",
+    "concurrently": "^9.1.0",
+    "npm-run-all2": "^7.0.1",
+    "pocketbase-typegen": "^1.3.0",
+    "terminate": "^2.8.0",
+    "typescript": "~5.7.0",
+    "unplugin-icons": "^0.20.2",
+    "unplugin-vue-components": "^0.27.5",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vue-tsc": "^2.1.10"
+  }
+}

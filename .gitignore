@@ -1,0 +1,9 @@
+node_modules
+db/*
+!db/.gitkeep
+.env
+dist/*
+!dist/.gitkeep
+backend/dist
+dist/
+binary/

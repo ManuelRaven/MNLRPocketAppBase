@@ -1,0 +1,24 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "components.d.ts",
+    "frontend/src/**/*",
+    "frontend/src/**/*.vue"
+  ],
+  "exclude": [
+    "frontend/src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "types": [
+      "unplugin-icons/types/vue"
+    ],
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "paths": {
+      "@/*": [
+        "./frontend/src/*"
+      ]
+    }
+  }
+}
