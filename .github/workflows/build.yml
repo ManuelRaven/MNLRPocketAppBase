@@ -2,19 +2,16 @@ name: Build
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
 
 jobs:
   build:
-    runs-on: docker
-
-    container:
-      image: node:20-bullseye
-
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Go
         uses: actions/setup-go@v5
