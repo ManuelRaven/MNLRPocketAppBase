@@ -13,7 +13,7 @@ jobs:
     runs-on: docker
 
     container:
-      image: node:20-bullseye
+      image: node:23-bullseye
 
     steps:
       - name: Set up Go
