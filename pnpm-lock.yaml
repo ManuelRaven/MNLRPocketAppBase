@@ -13,7 +13,7 @@ importers:
         version: 5.3.3(@popperjs/core@2.11.8)
       bootstrap-vue-next:
         specifier: ^0.26.7
-        version: 0.26.8(vue@3.5.13(typescript@5.7.2))
+        version: 0.26.9(vue@3.5.13(typescript@5.7.2))
       bootswatch:
         specifier: ^5.3.3
         version: 5.3.3
@@ -715,8 +715,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bootstrap-vue-next@0.26.8:
-    resolution: {integrity: sha512-2WolMPi4XB0J/736PPglDCIjUz2pwvOhu3SLjQYP0Rh5IncspMZMkUCa/H28Vh45xQadFtrYeBPyPF3JrpbadA==}
+  bootstrap-vue-next@0.26.9:
+    resolution: {integrity: sha512-tURZexHYSjOv49vqRt8A2pJY5H1TMOiTPpUlFiKg9MIIZIs2pTt672cUGGdaY7Z332PJ9jqBo6pXDKRUp/Dp2Q==}
     peerDependencies:
       vue: ^3.5.13
 
@@ -2536,7 +2536,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bootstrap-vue-next@0.26.8(vue@3.5.13(typescript@5.7.2)):
+  bootstrap-vue-next@0.26.9(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
 
