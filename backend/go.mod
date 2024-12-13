@@ -2,7 +2,7 @@ module mnlr.de/MNLRBase
 
 go 1.23.1
 
-require github.com/pocketbase/pocketbase v0.23.6
+require github.com/pocketbase/pocketbase v0.23.7
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7 // indirect
