@@ -2,8 +2,10 @@
   <div>
     <BCardGroup>
       <BCard title="BoostrapVueNext">
-        <a href="https://bootstrap-vue-next.github.io/" target="_blank"
-          >https://bootstrap-vue-next.github.io/</a
+        <a
+          href="https://bootstrap-vue-next.github.io/bootstrap-vue-next/"
+          target="_blank"
+          >https://bootstrap-vue-next.github.io/bootstrap-vue-next/</a
         >
       </BCard>
       <BCard title="Toasts">
