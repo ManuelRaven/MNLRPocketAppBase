@@ -18,7 +18,7 @@ RUN CGO_ENABLED=0 go build -tags production -o mnlrbase
 FROM alpine:latest AS runner
 WORKDIR /app
 
-COPY --from=builder-go /app/dist/mnlrbase .
+COPY --from=builder-go /app/mnlrbase .
 RUN chmod +x /app/mnlrbase
 
 EXPOSE 8090

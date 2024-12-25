@@ -6,6 +6,7 @@
   "scripts": {
     "dev:client": "vite dev",
     "dev:server": "cd backend && go run . --dir=../db serve",
+    "dev:server:snapshot": "cd backend && go run . --dir=../db migrate collections",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "build:client": "vite build",
     "build:server": "cd backend && go build -tags production -ldflags=\"-w -s\" -o ../dist/mnlrbase.exe",
