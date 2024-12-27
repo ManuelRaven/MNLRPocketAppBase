@@ -1,0 +1,8 @@
+FROM scratch
+
+# Copy only the pre-built binary from GoReleaser (frontend already embedded)
+COPY mnlrbase /
+
+EXPOSE 8090
+
+ENTRYPOINT ["/mnlrbase", "serve", "--http=0.0.0.0:8090"]

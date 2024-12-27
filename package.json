@@ -14,7 +14,8 @@
     "preview": "./dist/mnlrbase serve",
     "compose": "docker compose up --build -d",
     "dev:gentypes": "pocketbase-typegen --env --out=frontend/src/types/pocketbase-types.ts",
-    "gentypes": "node ./scripts/generate-types.js"
+    "gentypes": "node ./scripts/generate-types.js",
+    "patchandpush": "npm version patch && git push --follow-tags"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
