@@ -62,12 +62,12 @@ dockers:
     use: buildx
     skip_push: auto
   - image_templates:
-      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64'
-      - '{{ if not .IsSnapshot }}ghcr.io/manuelraven/mnlrbase:arm64{{ end }}'
+      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64v8'
+      - '{{ if not .IsSnapshot }}ghcr.io/manuelraven/mnlrbase:arm64v8{{ end }}'
     dockerfile: ../Dockerfile.goreleaser
     build_flag_templates:
       - "--pull"
-      - "--platform=linux/arm64"
+      - "--platform=linux/arm64/v8"
       - "--label=org.opencontainers.image.title={{ .ProjectName }}"
       - "--label=org.opencontainers.image.version={{ .Version }}"
       - "--label=org.opencontainers.image.created={{ .Date }}"
@@ -82,11 +82,11 @@ docker_manifests:
   - name_template: 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}'
     image_templates:
       - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-amd64'
-      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64'
+      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64v8'
   - name_template: '{{ if not .IsSnapshot }}ghcr.io/manuelraven/mnlrbase:latest{{ end }}'
     image_templates:
       - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-amd64'
-      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64'
+      - 'ghcr.io/manuelraven/mnlrbase:{{ .Version }}-arm64v8'
 
 changelog:
   sort: asc

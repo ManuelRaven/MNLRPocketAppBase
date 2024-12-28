@@ -1,6 +1,9 @@
-FROM scratch
+FROM alpine:latest
 
-# Copy only the pre-built binary from GoReleaser (frontend already embedded)
+# Install CA certificates for HTTPS
+RUN apk --no-cache add ca-certificates
+
+# Copy the pre-built binary from GoReleaser
 COPY mnlrbase /
 
 EXPOSE 8090
