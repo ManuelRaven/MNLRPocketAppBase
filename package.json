@@ -22,7 +22,7 @@
     "bootstrap-vue-next": "^0.26.7",
     "bootswatch": "^5.3.3",
     "pinia": "^2.2.6",
-    "pocketbase": "^0.24.0",
+    "pocketbase": "^0.25.0",
     "vue": "^3.5.13",
     "vue-router": "^4.4.5"
   },
