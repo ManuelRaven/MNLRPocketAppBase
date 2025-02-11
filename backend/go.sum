@@ -107,6 +107,8 @@ github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.5.4 h1:iwk7v5+lUtA0cIQ
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.5.4/go.mod h1:o9mSr0x1NwImSmP9q38aTUhjYwcDm277YUURBjXcC2I=
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.5.6 h1:cCBJaT7EeEojpJ4s7wTDbhZlHVJOgNHN7iw6qVurGaw=
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.5.6/go.mod h1:WYH1ABybY7JK9TITPnk6ZlP7gQB8psI4c9qDmMsnLSA=
+github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.6.0 h1:kT2WeWcFySdYpPgyqJMSUE7781Qucjtn6wBvrgm9P+M=
+github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.6.0/go.mod h1:WYH1ABybY7JK9TITPnk6ZlP7gQB8psI4c9qDmMsnLSA=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.7 h1:8eUsivBQzZHqe/3FE+cqwfH+0p5Jo8PFM/QYQSmeZ+M=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.7/go.mod h1:kLPQvGUmxn/fqiCrDeohwG33bq2pQpGeY62yRO6Nrh0=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.8 h1:cWno7lefSH6Pp+mSznagKCgfDGeZRin66UvYUqAkyeA=
@@ -291,6 +293,8 @@ github.com/pocketbase/pocketbase v0.25.1 h1:c9hPFEYDMsOaORJ/7CGnSREjMkXDu8J5YACb
 github.com/pocketbase/pocketbase v0.25.1/go.mod h1:tOtOv7f3vJhAiyUluIwV9JPuKeknZRQ9F6uJE3W/ntI=
 github.com/pocketbase/pocketbase v0.25.3 h1:UaSBgxNc2aX5niwGnqZxkP5QTMJdvaFAk6uOh5qFfR4=
 github.com/pocketbase/pocketbase v0.25.3/go.mod h1:A5sg1OTyrlJCvBMIdXU7p61iUYXtGsRqwPRK0OEMZ9I=
+github.com/pocketbase/pocketbase v0.25.4 h1:3bsq+9RvLUmQs6bRlhuO0UiUnf9tt6aODPTHQlj8pYk=
+github.com/pocketbase/pocketbase v0.25.4/go.mod h1:CfcfWJ2u4eWaQbrpZ1rEkqIk9rB521yb9JVLNpEl/8E=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
