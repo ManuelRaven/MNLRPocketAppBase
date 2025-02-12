@@ -7,7 +7,7 @@ RUN bun install --frozen-lockfile
 RUN bun run build:client
 
 # Build backend
-FROM golang:1.23-alpine AS builder-go
+FROM golang:1.24-alpine AS builder-go
 WORKDIR /app
 
 COPY --from=builder-bun /app/backend .
