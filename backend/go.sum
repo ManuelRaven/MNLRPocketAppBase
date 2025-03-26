@@ -171,6 +171,8 @@ github.com/pocketbase/pocketbase v0.26.2 h1:to/qb/eLLfXln81hZ+n4GiF3wCAROQ/Xjtdq
 github.com/pocketbase/pocketbase v0.26.2/go.mod h1:npsaOtraBSCk04mNCbl0SE/ZIsIkvUjJYTt3LHD1gC0=
 github.com/pocketbase/pocketbase v0.26.3 h1:S3YP00uUQwTVMqt4wyuAZv43xJVWH72yNq5tJ8J9lgM=
 github.com/pocketbase/pocketbase v0.26.3/go.mod h1:npsaOtraBSCk04mNCbl0SE/ZIsIkvUjJYTt3LHD1gC0=
+github.com/pocketbase/pocketbase v0.26.4 h1:Mbe4QBgG/sEWy0iEioagNm2RqHBeAbym8Lr+8ibGTCA=
+github.com/pocketbase/pocketbase v0.26.4/go.mod h1:PZIC1rfrWdLYhrbIUtS4JmFvdq5S6clYJ2jW39Kh/J0=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
@@ -351,6 +353,8 @@ modernc.org/sqlite v1.35.0 h1:yQps4fegMnZFdphtzlfQTCNBWtS0CZv48pRpW3RFHRw=
 modernc.org/sqlite v1.35.0/go.mod h1:9cr2sicr7jIaWTBKQmAxQLfBv9LL0su4ZTEV+utt3ic=
 modernc.org/sqlite v1.36.1 h1:bDa8BJUH4lg6EGkLbahKe/8QqoF8p9gArSc6fTqYhyQ=
 modernc.org/sqlite v1.36.1/go.mod h1:7MPwH7Z6bREicF9ZVUR78P1IKuxfZ8mRIDHD0iD+8TU=
+modernc.org/sqlite v1.36.2 h1:vjcSazuoFve9Wm0IVNHgmJECoOXLZM1KfMXbcX2axHA=
+modernc.org/sqlite v1.36.2/go.mod h1:ADySlx7K4FdY5MaJcEv86hTJ0PjedAloTUuif0YS3ws=
 modernc.org/strutil v1.2.0 h1:agBi9dp1I+eOnxXeiZawM8F4LawKv4NzGWSaLfyeNZA=
 modernc.org/strutil v1.2.0/go.mod h1:/mdcBmfOibveCTBxUl5B5l6W+TTH1FXPLHZE6bTosX0=
 modernc.org/token v1.1.0 h1:Xl7Ap9dKaEs5kLoOQeQmPWevfnk/DM5qcLcYlA8ys6Y=
