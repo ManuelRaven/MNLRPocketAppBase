@@ -13,7 +13,7 @@ importers:
         version: 5.3.6(@popperjs/core@2.11.8)
       bootstrap-vue-next:
         specifier: ^0.29.0
-        version: 0.29.2(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3))
+        version: 0.29.3(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3))
       bootswatch:
         specifier: ^5.3.3
         version: 5.3.6
@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@iconify-json/bi':
         specifier: ^1.2.1
-        version: 1.2.3
+        version: 1.2.4
       '@tsconfig/node22':
         specifier: ^22.0.0
         version: 22.0.1
@@ -392,8 +392,8 @@ packages:
   '@gar/promisify@1.1.3':
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
 
-  '@iconify-json/bi@1.2.3':
-    resolution: {integrity: sha512-pDNU9mIKDfvVEGxWsExiuVEqyhyJ5q5bOwBTgtM7I2hGk9ACQaiogMaA6lBRJ82sJPj+Uv21Oi+ujThGnMW2jA==}
+  '@iconify-json/bi@1.2.4':
+    resolution: {integrity: sha512-ipD8nm86ovjgXGEJj/B5oSJGaEIsGgzrKqNT1ei66nRExzK6Mgh4an/efG30Xtvp2eQjz9eWN5kHmadbnjUmzw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -736,8 +736,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bootstrap-vue-next@0.29.2:
-    resolution: {integrity: sha512-0Q4IMw7kY+TS/j5AWbHg1Kvm0z9ABvh0cvOBl5u3xVju0e9gQClX+6xJqIF6TXhXccCayp8EU5mFj7QWCPzS2g==}
+  bootstrap-vue-next@0.29.3:
+    resolution: {integrity: sha512-MJ7mlaogJAN1gKmaCt/jU3sLNULsQEBmqTgqOcQYczRpNAPYo+j0k1TA4fp0pTyAnWM0BO3z9MhCuo563AWQvQ==}
     peerDependencies:
       '@floating-ui/vue': '*'
       '@vueuse/core': '*'
@@ -2247,7 +2247,7 @@ snapshots:
   '@gar/promisify@1.1.3':
     optional: true
 
-  '@iconify-json/bi@1.2.3':
+  '@iconify-json/bi@1.2.4':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2606,7 +2606,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bootstrap-vue-next@0.29.2(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3)):
+  bootstrap-vue-next@0.29.3(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3)):
     dependencies:
       vue: 3.5.13(typescript@5.8.3)
     optionalDependencies:
