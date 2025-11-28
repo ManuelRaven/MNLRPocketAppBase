@@ -13,7 +13,7 @@ importers:
         version: 5.3.8(@popperjs/core@2.11.8)
       bootstrap-vue-next:
         specifier: ^0.40.0
-        version: 0.40.8(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
+        version: 0.40.9(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
       bootswatch:
         specifier: ^5.3.3
         version: 5.3.8
@@ -743,8 +743,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bootstrap-vue-next@0.40.8:
-    resolution: {integrity: sha512-8uS/UuL7RCeDgR+FD2Tr0yyUHxPDJVL8AjugeEgrXVpch36oiO+iFtfIeZVNRRWSz56h12wT2lSFmpy4b9qsBg==}
+  bootstrap-vue-next@0.40.9:
+    resolution: {integrity: sha512-m4EODlKWIkCFiQzICmKpOTjl3mxqKIpIbsBX0liFsMUip7huZkHDmaZUm6PrqJM2PHrZ7n8l6YRUgBPzFKUcYg==}
     peerDependencies:
       '@floating-ui/vue': '*'
       '@vueuse/core': '*'
@@ -2681,7 +2681,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bootstrap-vue-next@0.40.8(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3)):
+  bootstrap-vue-next@0.40.9(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3)):
     dependencies:
       vue: 3.5.25(typescript@5.9.3)
     optionalDependencies:
