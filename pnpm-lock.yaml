@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@iconify-json/bi':
         specifier: ^1.2.1
-        version: 1.2.6
+        version: 1.2.7
       '@tsconfig/node22':
         specifier: ^22.0.0
         version: 22.0.5
@@ -389,8 +389,8 @@ packages:
   '@gar/promisify@1.1.3':
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
 
-  '@iconify-json/bi@1.2.6':
-    resolution: {integrity: sha512-fWfLr1/+DJDe8+rIUXxMwvmWBZFlxRtM59sYnrezJ2xX87QKyXVw3QuforJ4kF2Orrz85J+JTRG6305vaJ7flA==}
+  '@iconify-json/bi@1.2.7':
+    resolution: {integrity: sha512-IPz8WNxmLkH1I9msl+0Q4OnmjjvP4uU0Z61a4i4sqonB6vKSbMGUWuGn8/YuuszlReVj8rf+3gNv5JU8Xoljyg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2304,7 +2304,7 @@ snapshots:
   '@gar/promisify@1.1.3':
     optional: true
 
-  '@iconify-json/bi@1.2.6':
+  '@iconify-json/bi@1.2.7':
     dependencies:
       '@iconify/types': 2.0.0
 
