@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "bootstrap-vue-next": "^0.40.0",
+    "bootstrap-vue-next": "^0.41.0",
     "bootswatch": "^5.3.3",
     "pinia": "^3.0.0",
     "pocketbase": "^0.26.0",
