@@ -22,7 +22,7 @@ importers:
         version: 3.0.4(typescript@5.9.3)(vue@3.5.30(typescript@5.9.3))
       pocketbase:
         specifier: ^0.26.0
-        version: 0.26.8
+        version: 0.26.9
       vue:
         specifier: ^3.5.13
         version: 3.5.30(typescript@5.9.3)
@@ -1594,8 +1594,8 @@ packages:
     resolution: {integrity: sha512-9RnoS0Hm7kg4dEAV0zz21OkULy+t1DpWBeZHT9j4ZJu3L58pdfva/2314mhfE2hrOUeNiedqoFtfkJ9ZYQ8yng==}
     hasBin: true
 
-  pocketbase@0.26.8:
-    resolution: {integrity: sha512-aQ/ewvS7ncvAE8wxoW10iAZu6ElgbeFpBhKPnCfvRovNzm2gW8u/sQNPGN6vNgVEagz44kK//C61oKjfa+7Low==}
+  pocketbase@0.26.9:
+    resolution: {integrity: sha512-Tiv1/hNuUzRdvT0d8hF03dfzuefQ1WdSRp1A1q3wzFC/WYhQcbU/Qlaubl/3ZDo6xvFXBS8JAgBS/L+ms7nkVQ==}
 
   postcss@8.5.14:
     resolution: {integrity: sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==}
@@ -3628,7 +3628,7 @@ snapshots:
       - encoding
       - supports-color
 
-  pocketbase@0.26.8: {}
+  pocketbase@0.26.9: {}
 
   postcss@8.5.14:
     dependencies:
