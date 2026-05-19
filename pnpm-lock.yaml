@@ -13,7 +13,7 @@ importers:
         version: 5.3.8(@popperjs/core@2.11.8)
       bootstrap-vue-next:
         specifier: ^0.45.0
-        version: 0.45.3(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.34(typescript@5.9.3)))(vue@3.5.34(typescript@5.9.3))
+        version: 0.45.4(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.34(typescript@5.9.3)))(vue@3.5.34(typescript@5.9.3))
       bootswatch:
         specifier: ^5.3.3
         version: 5.3.8
@@ -777,8 +777,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bootstrap-vue-next@0.45.3:
-    resolution: {integrity: sha512-I+/M+cqyWU79014E4WjIEMRQRu/O2FQLJAlyAamVjbZ41v3QpljVNt9EF8skmQAztoWFNeGvpHrzLw6MATJDKA==}
+  bootstrap-vue-next@0.45.4:
+    resolution: {integrity: sha512-l/Wxmiw3PZDjt0QLF6jPh1SguW6H+vxfe/zJb0ANX5vTVggmkgXgGjNzdHr4UB2eghVprGjpjSxUOMcSNaZzfA==}
     peerDependencies:
       '@floating-ui/vue': '*'
       '@internationalized/date': '*'
@@ -2758,7 +2758,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bootstrap-vue-next@0.45.3(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.34(typescript@5.9.3)))(vue@3.5.34(typescript@5.9.3)):
+  bootstrap-vue-next@0.45.4(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.34(typescript@5.9.3)))(vue@3.5.34(typescript@5.9.3)):
     dependencies:
       '@floating-ui/core': 1.7.5
       bootstrap: 5.3.8(@popperjs/core@2.11.8)
