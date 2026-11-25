@@ -12,8 +12,8 @@ importers:
         specifier: ^5.3.3
         version: 5.3.8(@popperjs/core@2.11.8)
       bootstrap-vue-next:
-        specifier: ^0.46.0
-        version: 0.46.4(@internationalized/date@3.12.4)(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.42(typescript@5.9.3)))(vue@3.5.42(typescript@5.9.3))
+        specifier: ^1.0.0
+        version: 1.2.5(@internationalized/date@3.12.4)(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.42(typescript@5.9.3)))(vue@3.5.42(typescript@5.9.3))
       bootswatch:
         specifier: ^5.3.3
         version: 5.3.8
@@ -755,8 +755,58 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
+  '@vueuse/core@14.4.0':
+    resolution: {integrity: sha512-X4WHz1HlCzCBoYXesUkifzzWBAcZgXG8Fi5iNPQg/epdzOB3gu8Fawj3hvuwYR1nGcXGnvxwYYcUC/71++svtQ==}
+    peerDependencies:
+      vue: ^3.5.0
+
+  '@vueuse/integrations@14.4.0':
+    resolution: {integrity: sha512-oJz9qTgczvA7L1nXQFRU7h8tQbOCoiceqvMMhT9XYMyOGTqLJ2rEa09PON+nD2t48sZUfeOmg4eaWJXV4sZb/w==}
+    peerDependencies:
+      async-validator: ^4
+      axios: ^1
+      change-case: ^5
+      drauu: ^0.4
+      focus-trap: ^7 || ^8
+      fuse.js: ^7
+      idb-keyval: ^6
+      jwt-decode: ^4
+      nprogress: ^0.2
+      qrcode: ^1.5
+      sortablejs: ^1
+      universal-cookie: ^7 || ^8
+      vue: ^3.5.0
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      idb-keyval:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      sortablejs:
+        optional: true
+      universal-cookie:
+        optional: true
+
   '@vueuse/metadata@14.2.1':
     resolution: {integrity: sha512-1ButlVtj5Sb/HDtIy1HFr1VqCP4G6Ypqt5MAo0lCgjokrk2mvQKsK2uuy0vqu/Ks+sHfuHo0B9Y9jn9xKdjZsw==}
+
+  '@vueuse/metadata@14.4.0':
+    resolution: {integrity: sha512-swx/255R6JyHZFJhx845iz5CRWDZdCfvkZOpACWc5+c5WHcG24mv8gUT1WIdFQaHt6dq79rvILd9QnCWiyVm9g==}
 
   '@vueuse/shared@14.2.1':
     resolution: {integrity: sha512-shTJncjV9JTI4oVNyF1FQonetYAiTBd+Qj7cY89SWbXSkx7gyhrgtEdF2ZAVWS1S3SHlaROO6F2IesJxQEkZBw==}
@@ -827,30 +877,15 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bootstrap-vue-next@0.46.4:
-    resolution: {integrity: sha512-sP+92AqPIoAKhz9OMSwBbNn7CklNaJNtpz1M5SaUJi5GLuxBLeHYPzkBfcxhvBdKW1wZlcYyDxDXjEP9rhIQbA==}
+  bootstrap-vue-next@1.2.5:
+    resolution: {integrity: sha512-pYfL/u+Y5vtzL0joZSyRbg78B/iy3dK5K0Jq0gP2HPQztcp0xVbgMBzVeEj1ZDq96L3gnbI09maeWoEZXj17DA==}
     peerDependencies:
-      '@floating-ui/vue': '*'
       '@internationalized/date': '*'
-      '@vueuse/core': '*'
-      '@vueuse/integrations': '*'
       bootstrap: ^5.3.0
-      focus-trap: '*'
-      reka-ui: '*'
       vue: ^3.5.13
       vue-router: '*'
     peerDependenciesMeta:
-      '@floating-ui/vue':
-        optional: true
       '@internationalized/date':
-        optional: true
-      '@vueuse/core':
-        optional: true
-      '@vueuse/integrations':
-        optional: true
-      focus-trap:
-        optional: true
-      reka-ui:
         optional: true
       vue-router:
         optional: true
@@ -1064,6 +1099,9 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  focus-trap@8.2.6:
+    resolution: {integrity: sha512-4V7uTf/7Ax3ynfbey6K3o8NOfIz+go9atKNtFU+KCP5NWhyvn2M/Qk4HY+9kOi8NWujpglRGe0y6G3r/L5M/Pw==}
 
   from@0.1.7:
     resolution: {integrity: sha512-twe20eF1OxVxp/ML/kq2p1uc6KvFK/+vs8WjEbeKmV2He22MKm7YF2ANIt+EOqhJ5L3K/SuuPhk0hWQDjOM23g==}
@@ -1550,6 +1588,9 @@ packages:
   supports-color@8.1.1:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
+
+  tabbable@6.5.2:
+    resolution: {integrity: sha512-XgdnB1nGU6KU4VgMnZPaZCx7M1hBrLyEiZYau2G2gq9UT0d7d4FUBlNX7vvPlm/B1vk1PjrzJBx9Lbv4fsqS9g==}
 
   tar-fs@2.1.4:
     resolution: {integrity: sha512-mDAjwmZdh7LTT6pNleZ05Yt65HC3E+NiQzl672vQG38jIrehtJk/J3mNwIg+vShQPcLF/LV7CMnDW6vjj6sfYQ==}
@@ -2476,7 +2517,24 @@ snapshots:
       '@vueuse/shared': 14.2.1(vue@3.5.42(typescript@5.9.3))
       vue: 3.5.42(typescript@5.9.3)
 
+  '@vueuse/core@14.4.0(vue@3.5.42(typescript@5.9.3))':
+    dependencies:
+      '@types/web-bluetooth': 0.0.21
+      '@vueuse/metadata': 14.4.0
+      '@vueuse/shared': 14.4.0(vue@3.5.42(typescript@5.9.3))
+      vue: 3.5.42(typescript@5.9.3)
+
+  '@vueuse/integrations@14.4.0(focus-trap@8.2.6)(vue@3.5.42(typescript@5.9.3))':
+    dependencies:
+      '@vueuse/core': 14.4.0(vue@3.5.42(typescript@5.9.3))
+      '@vueuse/shared': 14.4.0(vue@3.5.42(typescript@5.9.3))
+      vue: 3.5.42(typescript@5.9.3)
+    optionalDependencies:
+      focus-trap: 8.2.6
+
   '@vueuse/metadata@14.2.1': {}
+
+  '@vueuse/metadata@14.4.0': {}
 
   '@vueuse/shared@14.2.1(vue@3.5.42(typescript@5.9.3))':
     dependencies:
@@ -2534,17 +2592,31 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bootstrap-vue-next@0.46.4(@internationalized/date@3.12.4)(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.42(typescript@5.9.3)))(vue@3.5.42(typescript@5.9.3)):
+  bootstrap-vue-next@1.2.5(@internationalized/date@3.12.4)(bootstrap@5.3.8(@popperjs/core@2.11.8))(vue-router@4.6.4(vue@3.5.42(typescript@5.9.3)))(vue@3.5.42(typescript@5.9.3)):
     dependencies:
       '@floating-ui/core': 1.8.0
       '@floating-ui/vue': 2.0.1(vue@3.5.42(typescript@5.9.3))
       '@vueuse/core': 14.2.1(vue@3.5.42(typescript@5.9.3))
+      '@vueuse/integrations': 14.4.0(focus-trap@8.2.6)(vue@3.5.42(typescript@5.9.3))
       bootstrap: 5.3.8(@popperjs/core@2.11.8)
+      focus-trap: 8.2.6
       reka-ui: 2.11.0(vue@3.5.42(typescript@5.9.3))
       vue: 3.5.42(typescript@5.9.3)
     optionalDependencies:
       '@internationalized/date': 3.12.4
       vue-router: 4.6.4(vue@3.5.42(typescript@5.9.3))
+    transitivePeerDependencies:
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - nprogress
+      - qrcode
+      - sortablejs
+      - universal-cookie
 
   bootstrap@5.3.8(@popperjs/core@2.11.8):
     dependencies:
@@ -2771,6 +2843,10 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
+
+  focus-trap@8.2.6:
+    dependencies:
+      tabbable: 6.5.2
 
   from@0.1.7: {}
 
@@ -3229,6 +3305,8 @@ snapshots:
   supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
+
+  tabbable@6.5.2: {}
 
   tar-fs@2.1.4:
     dependencies:
